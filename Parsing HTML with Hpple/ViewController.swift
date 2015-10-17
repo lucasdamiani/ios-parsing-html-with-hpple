@@ -7,19 +7,27 @@
 //
 
 import UIKit
+import hpple
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var webView: UIWebView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        if let htmlFile = NSBundle.mainBundle().pathForResource("index", ofType: "html", inDirectory: "www") {
+            let htmlData = NSData(contentsOfFile: htmlFile)
+            let htmlDocument = TFHpple(HTMLData: htmlData)
+            if let htmlElements = htmlDocument.searchWithXPathQuery("//form[@id='form1']") as? [TFHppleElement] {
+                if let firstForm = htmlElements.first?.raw {
+                    webView.loadHTMLString(firstForm, baseURL: nil)
+                }
+            }
+        } else {
+            print("File not found")
+        }
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
 
 }
 
