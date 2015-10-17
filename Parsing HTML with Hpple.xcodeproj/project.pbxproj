@@ -1,0 +1,291 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE27C5971BD2BF1300D4CFEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE27C5961BD2BF1300D4CFEE /* AppDelegate.swift */; };
+		FE27C5991BD2BF1300D4CFEE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE27C5981BD2BF1300D4CFEE /* ViewController.swift */; };
+		FE27C59C1BD2BF1300D4CFEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE27C59A1BD2BF1300D4CFEE /* Main.storyboard */; };
+		FE27C59E1BD2BF1300D4CFEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE27C59D1BD2BF1300D4CFEE /* Assets.xcassets */; };
+		FE27C5A11BD2BF1300D4CFEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE27C59F1BD2BF1300D4CFEE /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FE27C5931BD2BF1300D4CFEE /* Parsing HTML with Hpple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Parsing HTML with Hpple.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE27C5961BD2BF1300D4CFEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FE27C5981BD2BF1300D4CFEE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FE27C59B1BD2BF1300D4CFEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FE27C59D1BD2BF1300D4CFEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE27C5A01BD2BF1300D4CFEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FE27C5A21BD2BF1300D4CFEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE27C5901BD2BF1300D4CFEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE27C58A1BD2BF1300D4CFEE = {
+			isa = PBXGroup;
+			children = (
+				FE27C5951BD2BF1300D4CFEE /* Parsing HTML with Hpple */,
+				FE27C5941BD2BF1300D4CFEE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE27C5941BD2BF1300D4CFEE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE27C5931BD2BF1300D4CFEE /* Parsing HTML with Hpple.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE27C5951BD2BF1300D4CFEE /* Parsing HTML with Hpple */ = {
+			isa = PBXGroup;
+			children = (
+				FE27C5961BD2BF1300D4CFEE /* AppDelegate.swift */,
+				FE27C5981BD2BF1300D4CFEE /* ViewController.swift */,
+				FE27C59A1BD2BF1300D4CFEE /* Main.storyboard */,
+				FE27C59D1BD2BF1300D4CFEE /* Assets.xcassets */,
+				FE27C59F1BD2BF1300D4CFEE /* LaunchScreen.storyboard */,
+				FE27C5A21BD2BF1300D4CFEE /* Info.plist */,
+			);
+			path = "Parsing HTML with Hpple";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE27C5921BD2BF1300D4CFEE /* Parsing HTML with Hpple */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE27C5A51BD2BF1300D4CFEE /* Build configuration list for PBXNativeTarget "Parsing HTML with Hpple" */;
+			buildPhases = (
+				FE27C58F1BD2BF1300D4CFEE /* Sources */,
+				FE27C5901BD2BF1300D4CFEE /* Frameworks */,
+				FE27C5911BD2BF1300D4CFEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Parsing HTML with Hpple";
+			productName = "Parsing HTML with Hpple";
+			productReference = FE27C5931BD2BF1300D4CFEE /* Parsing HTML with Hpple.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE27C58B1BD2BF1300D4CFEE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Lucas Damiani";
+				TargetAttributes = {
+					FE27C5921BD2BF1300D4CFEE = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 5LJCEL2XR4;
+					};
+				};
+			};
+			buildConfigurationList = FE27C58E1BD2BF1300D4CFEE /* Build configuration list for PBXProject "Parsing HTML with Hpple" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE27C58A1BD2BF1300D4CFEE;
+			productRefGroup = FE27C5941BD2BF1300D4CFEE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE27C5921BD2BF1300D4CFEE /* Parsing HTML with Hpple */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE27C5911BD2BF1300D4CFEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE27C5A11BD2BF1300D4CFEE /* LaunchScreen.storyboard in Resources */,
+				FE27C59E1BD2BF1300D4CFEE /* Assets.xcassets in Resources */,
+				FE27C59C1BD2BF1300D4CFEE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE27C58F1BD2BF1300D4CFEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE27C5991BD2BF1300D4CFEE /* ViewController.swift in Sources */,
+				FE27C5971BD2BF1300D4CFEE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FE27C59A1BD2BF1300D4CFEE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE27C59B1BD2BF1300D4CFEE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FE27C59F1BD2BF1300D4CFEE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE27C5A01BD2BF1300D4CFEE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE27C5A31BD2BF1300D4CFEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FE27C5A41BD2BF1300D4CFEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE27C5A61BD2BF1300D4CFEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Parsing HTML with Hpple/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nalsonlabs.Parsing-HTML-with-Hpple";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FE27C5A71BD2BF1300D4CFEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Parsing HTML with Hpple/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nalsonlabs.Parsing-HTML-with-Hpple";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE27C58E1BD2BF1300D4CFEE /* Build configuration list for PBXProject "Parsing HTML with Hpple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE27C5A31BD2BF1300D4CFEE /* Debug */,
+				FE27C5A41BD2BF1300D4CFEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE27C5A51BD2BF1300D4CFEE /* Build configuration list for PBXNativeTarget "Parsing HTML with Hpple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE27C5A61BD2BF1300D4CFEE /* Debug */,
+				FE27C5A71BD2BF1300D4CFEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE27C58B1BD2BF1300D4CFEE /* Project object */;
+}
